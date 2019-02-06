@@ -45,6 +45,7 @@ l1 = l1->next;
 l2 = l2->next;
 ```
 第一处出错完全是脑子短路了，本身这么写就不对。。。。
+
 第二处欠考虑，其中一个链表为空时，不存在next指针，加上判断条件即可
 ##### 3、C++代码如下
 ```
@@ -107,4 +108,5 @@ public:
 执行效率如下：
 ![执行效率](https://img-blog.csdnimg.cn/20190206230428530.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x5ZDE5OTU=,size_16,color_FFFFFF,t_70)
 嗯。。。情况还不错，暂时也没有想出更好的方案了
+
 等第二轮刷题时看看能不能想出更快的方法吧（笑）
