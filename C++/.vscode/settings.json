@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "iostream": "cpp",
+        "vector": "cpp",
+        "algorithm": "cpp",
+        "deque": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "functional": "cpp",
+        "sstream": "cpp",
+        "stack": "cpp",
+        "cmath": "cpp",
+        "set": "cpp",
+        "memory": "cpp",
+        "system_error": "cpp",
+        "iosfwd": "cpp",
+        "map": "cpp"
+    }
+}
